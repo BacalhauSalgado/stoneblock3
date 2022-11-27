@@ -8,8 +8,8 @@ services:
         volumes:
             - /mnt/modpack_server_data:/server
         ports:
-            - 25565:25565
-            - 25575:25575
+            - 25566:25565
+            - 25576:25575
 
 volumes:
     modpack_server_data:
